@@ -1,0 +1,70 @@
+* {
+ font-family: "Poppins", sans-serif;
+ padding: 0;
+ margin: 0;
+ outline: none;
+ transition: all 0.5s ease;
+}
+
+
+
+body {
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background: linear-gradient(90deg, #6ead87 0%, #2d6e2f 100%);
+}
+
+:root {
+ --primary-clr: #2626cd;
+ --primary-white: #fff;
+ --secondary-clr: #db7e31;
+}
+
+.card {
+ width: 22rem;
+ display: flex;
+ flex-direction: column;
+ border-radius: 0.3rem;
+ padding: 1rem;
+ margin-top: 1.5rem;
+ background: linear-gradient(135deg, #58AED7 0%, #3983BA 100%);
+ box-shadow: 14px 17px 33px 13px #397044;
+}
+
+h3 {
+ font-size: 0.9rem;
+ font-weight: 500;
+ color: var(--primary-white);
+}
+
+p {
+ font-size: 0.6rem;
+ font-weight: 400;
+ line-height: 1.2rem;
+ margin: 0.5rem 0;
+ color: var(--primary-white);
+}
+
+button {
+ display: flex;
+ align-self: flex-end;
+ font-size: 0.55rem;
+ font-weight: 500;
+ color: var(--primary-clr);
+ background-color: var(--primary-white);
+ border: 1px solid var(--primary-white);
+ border-radius: 0.2rem;
+ padding: 0.3rem 1.3rem;
+ margin-top: 0.5rem;
+ cursor: pointer;
+ transition: all 0.5s ease;
+}
+
+button:hover {
+ color: var(--primary-white);
+ background-color: var(--primary-clr);
+}
